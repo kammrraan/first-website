@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+}
+
+.logo{
+    width: 23%;
+    height: 40;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+
+.logo img{
+    width: 31%;
+    height: 88%;
+    border: 3px solid white;
+    border-radius: 50px;
+    
+}
+
+.nav-list{
+    width: 70%;
+    /* background-color: black; */
+    display: flex;
+}
+
+.nav-list li{
+    text-decoration: none;
+    padding: 23px 30px;
+}  
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}  
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+}  
+
+
+.nav-right{
+    width: 30%;
+    /* background-color: blueviolet; */
+    text-align: right;
+    padding-right: 5%;
+    
+}
+
+#search{
+    padding: 5px;
+    font-size: 17;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+.btn-sm{
+    font-size: 12;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2px 3px;
+    margin: 5px 3px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url("../img/background.jpg");
+    /* background-color: transparent; */
+    background-blend-mode: darken;
+    background-size: cover;
+
+}
+
+.mainBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 55%;
+    margin: auto;
+    height: 70%;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.firstHalf{
+    max-width: 80%;
+}
+
+.secondHalf{
+    max-width: 50%;
+}
+.secondHalf img{
+    width:86%;
+    height: 120px;
+    border: 4px solid white;
+    border-radius: 100px;
+    display: block;
+    margin: auto;
+}
+
+.textBig{
+    font-size: 37px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.textSmall{
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn{
+    border: 2px solid;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 5px 3px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.secondSection{
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+}
+.secondSection img{
+    height: 180px;
+    width: 200px;
+    border-radius: 30px;
+    border: 3px solid black;
+    
+}
+
+.sectionTag{
+    padding: 7px 0px;
+}
+
+.paras{
+    padding: 0 60px;
+}
+
+.leftSection{
+    flex-direction: row-reverse;
+}
+
+.contact{
+    height: 100vh;
+    background-color: aliceblue;
+    justify-content: center;
+}
+
+.heading{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px 0px;
+}
+
+.form{
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.formInput{
+    width: 100%;
+    font-size: 17;
+    padding: 6px;
+    margin: 7px 0 ;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.btnDark{
+    color:whitesmoke;
+    border: 2px solid grey;
+    background-color: black;
+    font-family: ubuntu;
+}
+
+.text-footer{
+    color: white;
+    font-size: 15px;
+    font-family: ubuntu;
+    text-align: center;
+    padding: 20px;
+}
